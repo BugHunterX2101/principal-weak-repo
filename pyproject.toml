@@ -1,7 +1,7 @@
 [project]
 name = "weak-repo"
 version = "0.1.0"
-description = "Fixture repository: a pricing module whose visible tests miss two callers and a string lookup."
+description = "Fixture repository: a pricing module. At commit 3fd067a its tests miss two callers and a string lookup; later commits add tests that cover them."
 requires-python = ">=3.11"
 
 [project.optional-dependencies]
